@@ -4,9 +4,7 @@
 use Doctrine\ORM\Tools\Console\ConsoleRunner;
 use Doctrine\ORM\Tools\Console\EntityManagerProvider\SingleManagerProvider;
 
-chdir(__DIR__);
-// replace with path to your own project bootstrap file
-require_once '../bootstrap.php';
+require_once __DIR__ . '/../bootstrap.php';
 
 $commands = [
     // If you want to add your own custom console commands,
